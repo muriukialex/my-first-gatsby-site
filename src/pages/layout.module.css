@@ -1,0 +1,9 @@
+.mainStyle {
+  max-width: 900px;
+  margin: auto;
+}
+
+.navLinkText {
+  color: rgb(36, 128, 0);
+  margin-right: 30px;
+}
