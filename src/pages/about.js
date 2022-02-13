@@ -1,7 +1,8 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "./layout"
+
+import { StaticImage } from "gatsby-plugin-image"
 
 const AboutPage = () => {
   const hobbies = ["swimming", "dancing", "bike riding"]
@@ -15,6 +16,11 @@ const AboutPage = () => {
           <li key={hobby}>{hobby}</li>
         ))}
       </ul>
+
+      <StaticImage
+        alt="me in a picture"
+        src="../images/alex.jpeg"
+      ></StaticImage>
     </Layout>
   )
 }
